@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Seuil Table</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional Bootstrap theme -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css"> -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Update Seuil Table</h1>
+        <form method="post" action="/update_seuil">
+            <div class="form-group">
+                <label for="cpu">CPU Threshold:</label>
+                <input type="text" class="form-control" id="cpu" name="cpu" value="{{ cert_data[0] }}">
+            </div>
+            <div class="form-group">
+                <label for="memory">Memory Threshold:</label>
+                <input type="text" class="form-control" id="memory" name="memory" value="{{ cert_data[1] }}">
+            </div>
+            <div class="form-group">
+                <label for="ram">RAM Threshold:</label>
+                <input type="text" class="form-control" id="ram" name="ram" value="{{ cert_data[2] }}">
+            </div>
+            <div class="form-group">
+                <label for="temps_limite">Temps Limite:</label>
+                <input type="text" class="form-control" id="temps_limite" name="temps_limite" value="{{ cert_data[3] }}">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

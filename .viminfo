@@ -1,0 +1,969 @@
+# Ce fichier viminfo a été généré par Vim 8.2.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+|2,0,1711239244,,"wq"
+:Wq
+|2,0,1711231003,,"Wq"
+:qa
+|2,0,1711138719,,"qa"
+:q
+|2,0,1711138717,,"q"
+:QA
+|2,0,1711129234,,"QA"
+:WQ
+|2,0,1711129229,,"WQ"
+:wq!
+|2,0,1711070665,,"wq!"
+::Wq
+|2,0,1710998434,,":Wq"
+:q!
+|2,0,1709842108,,"q!"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+? @$
+|2,1,1711070675,,"@$"
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+"0	CHAR	0
+	return redirect(url_for('
+|3,0,0,0,1,0,1711236459,"return redirect(url_for('"
+""1	LINE	0
+	@app.route('/')
+|3,1,1,1,1,0,1711239231,"@app.route('/')"
+"2	LINE	0
+	def index():
+|3,0,2,1,1,0,1711239230,"def index():"
+"3	LINE	0
+	    return render_template('page.html')
+|3,0,3,1,1,0,1711239229,"    return render_template('page.html')"
+"4	LINE	0
+	@app.route('/')
+|3,0,4,1,1,0,1711238572,"@app.route('/')"
+"5	LINE	0
+	def index():
+|3,0,5,1,1,0,1711238571,"def index():"
+"6	LINE	0
+	    return render_template('page.html')
+|3,0,6,1,1,0,1711238570,"    return render_template('page.html')"
+"7	LINE	0
+	from flask import Flask, render_template, request, redirect, url_for, g
+|3,0,7,1,1,0,1711238229,"from flask import Flask, render_template, request, redirect, url_for, g"
+"8	LINE	0
+	import sqlite3
+|3,0,8,1,1,0,1711238228,"import sqlite3"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1711238227,""
+"-	CHAR	0
+	l
+|3,0,36,0,1,0,1711074577,"l"
+
+# Marques dans le fichier :
+'0  4  44  ~/Fourthstep/form.py
+|4,48,4,44,1711239244,"~/Fourthstep/form.py"
+'1  67  36  ~/Fourthstep/form.py
+|4,49,67,36,1711238699,"~/Fourthstep/form.py"
+'2  53  36  ~/Fourthstep/form.py
+|4,50,53,36,1711238699,"~/Fourthstep/form.py"
+'3  38  0  ~/Fourthstep/webpage.py
+|4,51,38,0,1711238575,"~/Fourthstep/webpage.py"
+'4  39  11  ~/Fourthstep/webpage.py
+|4,52,39,11,1711238466,"~/Fourthstep/webpage.py"
+'5  73  0  ~/Fourthstep/form.py
+|4,53,73,0,1711238232,"~/Fourthstep/form.py"
+'6  69  0  ~/Fourthstep/form.py
+|4,54,69,0,1711238232,"~/Fourthstep/form.py"
+'7  59  0  ~/Fourthstep/form.py
+|4,55,59,0,1711238232,"~/Fourthstep/form.py"
+'8  55  0  ~/Fourthstep/form.py
+|4,56,55,0,1711238232,"~/Fourthstep/form.py"
+'9  1  28  ~/Fourthstep/form.py
+|4,57,1,28,1711238121,"~/Fourthstep/form.py"
+
+# Liste de sauts (le plus récent en premier) :
+-'  4  44  ~/Fourthstep/form.py
+|4,39,4,44,1711239244,"~/Fourthstep/form.py"
+-'  67  36  ~/Fourthstep/form.py
+|4,39,67,36,1711238958,"~/Fourthstep/form.py"
+-'  53  36  ~/Fourthstep/form.py
+|4,39,53,36,1711238699,"~/Fourthstep/form.py"
+-'  73  0  ~/Fourthstep/form.py
+|4,39,73,0,1711238596,"~/Fourthstep/form.py"
+-'  59  0  ~/Fourthstep/form.py
+|4,39,59,0,1711238596,"~/Fourthstep/form.py"
+-'  38  0  ~/Fourthstep/webpage.py
+|4,39,38,0,1711238575,"~/Fourthstep/webpage.py"
+-'  38  0  ~/Fourthstep/webpage.py
+|4,39,38,0,1711238575,"~/Fourthstep/webpage.py"
+-'  38  0  ~/Fourthstep/webpage.py
+|4,39,38,0,1711238575,"~/Fourthstep/webpage.py"
+-'  38  0  ~/Fourthstep/webpage.py
+|4,39,38,0,1711238575,"~/Fourthstep/webpage.py"
+-'  39  11  ~/Fourthstep/webpage.py
+|4,39,39,11,1711238466,"~/Fourthstep/webpage.py"
+-'  39  11  ~/Fourthstep/webpage.py
+|4,39,39,11,1711238466,"~/Fourthstep/webpage.py"
+-'  39  11  ~/Fourthstep/webpage.py
+|4,39,39,11,1711238466,"~/Fourthstep/webpage.py"
+-'  39  11  ~/Fourthstep/webpage.py
+|4,39,39,11,1711238466,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238456,"~/Fourthstep/webpage.py"
+-'  69  0  ~/Fourthstep/form.py
+|4,39,69,0,1711238232,"~/Fourthstep/form.py"
+-'  55  0  ~/Fourthstep/form.py
+|4,39,55,0,1711238232,"~/Fourthstep/form.py"
+-'  55  0  ~/Fourthstep/form.py
+|4,39,55,0,1711238232,"~/Fourthstep/form.py"
+-'  55  0  ~/Fourthstep/form.py
+|4,39,55,0,1711238232,"~/Fourthstep/form.py"
+-'  55  0  ~/Fourthstep/form.py
+|4,39,55,0,1711238232,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  1  28  ~/Fourthstep/form.py
+|4,39,1,28,1711238215,"~/Fourthstep/form.py"
+-'  70  28  ~/Fourthstep/form.py
+|4,39,70,28,1711238121,"~/Fourthstep/form.py"
+-'  66  28  ~/Fourthstep/form.py
+|4,39,66,28,1711238121,"~/Fourthstep/form.py"
+-'  56  28  ~/Fourthstep/form.py
+|4,39,56,28,1711238121,"~/Fourthstep/form.py"
+-'  52  28  ~/Fourthstep/form.py
+|4,39,52,28,1711238121,"~/Fourthstep/form.py"
+-'  52  28  ~/Fourthstep/form.py
+|4,39,52,28,1711238121,"~/Fourthstep/form.py"
+-'  52  28  ~/Fourthstep/form.py
+|4,39,52,28,1711238121,"~/Fourthstep/form.py"
+-'  52  28  ~/Fourthstep/form.py
+|4,39,52,28,1711238121,"~/Fourthstep/form.py"
+-'  52  31  ~/Fourthstep/form.py
+|4,39,52,31,1711238108,"~/Fourthstep/form.py"
+-'  52  31  ~/Fourthstep/form.py
+|4,39,52,31,1711238108,"~/Fourthstep/form.py"
+-'  52  31  ~/Fourthstep/form.py
+|4,39,52,31,1711238108,"~/Fourthstep/form.py"
+-'  52  31  ~/Fourthstep/form.py
+|4,39,52,31,1711238108,"~/Fourthstep/form.py"
+-'  52  35  ~/Fourthstep/form.py
+|4,39,52,35,1711238073,"~/Fourthstep/form.py"
+-'  52  35  ~/Fourthstep/form.py
+|4,39,52,35,1711238073,"~/Fourthstep/form.py"
+-'  52  35  ~/Fourthstep/form.py
+|4,39,52,35,1711238073,"~/Fourthstep/form.py"
+-'  52  35  ~/Fourthstep/form.py
+|4,39,52,35,1711238073,"~/Fourthstep/form.py"
+-'  76  0  ~/Fourthstep/form.py
+|4,39,76,0,1711238060,"~/Fourthstep/form.py"
+-'  72  0  ~/Fourthstep/form.py
+|4,39,72,0,1711238060,"~/Fourthstep/form.py"
+-'  62  0  ~/Fourthstep/form.py
+|4,39,62,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  58  0  ~/Fourthstep/form.py
+|4,39,58,0,1711238060,"~/Fourthstep/form.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+-'  37  1  ~/Fourthstep/webpage.py
+|4,39,37,1,1711238051,"~/Fourthstep/webpage.py"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/Fourthstep/form.py
+	*	1711239242	0
+	"	4	44
+	^	23	45
+	.	23	44
+	+	1	71
+	+	1	50
+	+	1	0
+	+	1	7
+	+	1	71
+	+	1	50
+	+	1	0
+	+	1	71
+	+	72	50
+	+	5	15
+	+	6	38
+	+	5	0
+	+	67	36
+	+	6	15
+	+	23	44
+
+> ~/Fourthstep/webpage.py
+	*	1711238575	0
+	"	38	0
+	.	38	0
+	+	1	0
+	+	1	23
+	+	1	68
+	+	1	31
+	+	1	0
+	+	1	23
+	+	1	31
+	+	1	46
+	+	1	25
+	+	1	39
+	+	1	23
+	+	1	37
+	+	1	77
+	+	1	0
+	+	1	58
+	+	1	36
+	+	1	12
+	+	1	44
+	+	1	0
+	+	1	3
+	+	1	2
+	+	1	4
+	+	1	0
+	+	1	43
+	+	39	39
+	+	28	81
+	+	28	87
+	+	28	74
+	+	29	7
+	+	28	82
+	+	28	81
+	+	38	0
+
+> ~/finalexecute.sh
+	*	1711236484	0
+	"	12	14
+	^	12	15
+	.	12	14
+	+	12	0
+	+	5	8
+	+	12	0
+	+	9	60
+	+	12	32
+	+	12	0
+	+	4	0
+	+	12	0
+	+	12	14
+
+> ~/Fourthstep/template/page.html
+	*	1711235845	0
+	"	143	50
+	^	143	51
+	.	143	50
+	+	1	17
+	+	1	26
+	+	1	15
+	+	1	7
+	+	1	0
+	+	1	10
+	+	1	15
+	+	148	7
+	+	143	50
+
+> ~/Fourthstep/template/form.html
+	*	1711235624	0
+	"	15	0
+	^	42	0
+	.	41	7
+	+	41	7
+
+> ~/Secondstep/suppression.py
+	*	1711232584	0
+	"	42	0
+	^	42	0
+	.	41	16
+	+	1	0
+	+	1	36
+	+	1	33
+	+	1	109
+	+	1	43
+	+	1	11
+	+	1	0
+	+	1	46
+	+	1	1
+	+	1	0
+	+	1	6
+	+	1	7
+	+	1	17
+	+	1	0
+	+	1	64
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	63
+	+	1	0
+	+	1	27
+	+	1	23
+	+	1	0
+	+	1	45
+	+	1	38
+	+	1	42
+	+	1	7
+	+	1	0
+	+	1	63
+	+	1	0
+	+	1	42
+	+	1	60
+	+	1	41
+	+	1	3
+	+	1	0
+	+	1	57
+	+	1	15
+	+	1	4
+	+	1	0
+	+	1	29
+	+	41	16
+
+> ~/Secondstep/storeInBase.py
+	*	1711232471	0
+	"	6	14
+	^	11	0
+	.	6	0
+	+	1	17
+	+	1	39
+	+	1	24
+	+	1	35
+	+	1	34
+	+	1	0
+	+	1	45
+	+	1	0
+	+	1	22
+	+	1	45
+	+	1	0
+	+	1	22
+	+	1	45
+	+	1	0
+	+	1	44
+	+	1	0
+	+	1	45
+	+	1	0
+	+	1	8
+	+	1	0
+	+	1	33
+	+	1	10
+	+	1	0
+	+	1	46
+	+	1	84
+	+	1	0
+	+	1	60
+	+	1	22
+	+	139	0
+	+	6	41
+	+	14	38
+	+	15	45
+	+	46	0
+	+	44	38
+	+	53	0
+	+	6	16
+	+	9	11
+	+	10	29
+	+	6	0
+
+> /tmp/crontab.BVW1wW/crontab
+	*	1711231871	0
+	"	24	2
+	^	24	3
+	.	24	2
+	+	24	2
+
+> /tmp/crontab.mCedOw/crontab
+	*	1711231500	0
+	"	24	2
+	^	24	3
+	.	24	2
+	+	24	2
+
+> ~/Secondstep/execute2.sh
+	*	1711226826	0
+	"	5	0
+	^	5	0
+	.	4	22
+	+	4	22
+
+> /tmp/crontab.OzjDKt/crontab
+	*	1711226503	0
+	"	24	2
+	^	24	3
+	.	24	2
+	+	24	2
+
+> /tmp/crontab.Kju977/crontab
+	*	1711150526	0
+	"	24	3
+	^	24	4
+	.	24	3
+	+	24	3
+
+> ~/Secondstep/parseur2.py
+	*	1711150138	0
+	"	41	0
+	^	41	0
+	.	40	12
+	+	1	31
+	+	1	15
+	+	1	16
+	+	1	15
+	+	40	12
+
+> ~/Fourthstep/parseur2.py
+	*	1711150046	0
+	"	1	0
+
+> ~/Secondstep/parseur.py
+	*	1711147608	0
+	"	61	0
+	^	57	0
+	.	23	58
+	+	1	70
+	+	1	27
+	+	1	15
+	+	60	12
+	+	24	0
+	+	23	58
+
+> /tmp/crontab.NM0pkr/crontab
+	*	1711140021	0
+	"	25	0
+
+> ~/Thirdstep/crisedetection.py
+	*	1711139014	0
+	"	31	0
+	^	31	0
+	.	24	86
+	+	30	54
+	+	15	0
+	+	30	33
+	+	24	39
+	+	17	109
+	+	24	86
+
+> ~/Secondstep/cd
+	*	1711138717	0
+	"	1	0
+
+> ~/Thirdstep/sendMail.py.
+	*	1711132663	0
+	"	1	0
+
+> ~/Thirdstep/sendMail.py
+	*	1711129677	0
+	"	40	0
+	^	40	0
+	.	39	67
+	+	1	13
+	+	1	14
+	+	1	0
+	+	1	45
+	+	1	14
+	+	1	67
+	+	1	37
+	+	1	64
+	+	1	61
+	+	1	27
+	+	1	56
+	+	1	55
+	+	1	10
+	+	1	0
+	+	1	33
+	+	1	24
+	+	1	16
+	+	1	0
+	+	1	31
+	+	1	56
+	+	1	0
+	+	1	23
+	+	1	0
+	+	1	25
+	+	1	24
+	+	1	0
+	+	1	26
+	+	1	56
+	+	1	68
+	+	1	74
+	+	1	14
+	+	39	67
+
+> ~/Secondstep/crise
+	*	1711126304	0
+	"	1	0
+
+> /tmp/crontab.bp82mf/crontab
+	*	1711125123	0
+	"	1	0
+
+> ~/Firststep/execute.sh
+	*	1711124994	0
+	"	4	29
+	^	4	30
+	.	5	0
+	+	9	0
+	+	9	40
+	+	2	0
+	+	9	0
+	+	3	19
+	+	4	30
+	+	5	0
+
+> ~/Firststep/sonde2M.py
+	*	1711124968	0
+	"	25	0
+	^	26	0
+	.	25	0
+	+	25	0
+
+> ~/Firststep/sonde1.sh
+	*	1711124914	0
+	"	1	0
+	.	1	0
+	+	8	31
+	+	6	48
+	+	6	50
+	+	1	84
+	+	7	26
+	+	9	0
+	+	1	19
+	+	5	71
+	+	5	0
+	+	1	51
+	+	3	33
+	+	1	0
+
+> /tmp/crontab.kRASmo/crontab
+	*	1711124751	0
+	"	24	0
+
+> /tmp/crontab.s7fOlY/crontab
+	*	1711124691	0
+	"	24	2
+	^	24	3
+	.	24	2
+	+	24	2
+
+> /tmp/crontab.07uQNe/crontab
+	*	1711085058	0
+	"	24	10
+	^	24	11
+	.	24	4
+	+	24	4
+
+> ~/Thirdstep/graph.py
+	*	1711084552	0
+	"	39	36
+	^	39	37
+	.	39	37
+	+	39	40
+	+	35	31
+	+	36	28
+	+	24	31
+	+	25	31
+	+	36	27
+	+	39	37
+
+> ~/Thirdstep/execute3.sh
+	*	1711084129	0
+	"	3	13
+	^	3	14
+	.	3	14
+	+	3	25
+	+	1	16
+	+	2	17
+	+	3	14
+
+> ~/Firststep/currentUsers.txt
+	*	1711083768	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Firststep/sondeallusers.sh
+	*	1711083252	0
+	"	18	0
+	^	18	0
+	.	18	0
+	+	18	0
+
+> /tmp/crontab.yVApTV/crontab
+	*	1711080207	0
+	"	25	0
+
+> /tmp/crontab.a1djNR/crontab
+	*	1711079627	0
+	"	24	37
+	^	24	38
+	.	24	21
+	+	24	0
+	+	24	21
+
+> ~/Fourthstep/interface/page.html
+	*	1711071242	0
+	"	76	23
+	^	76	24
+	.	76	18
+	+	80	7
+	+	76	18
+
+> ~/Firststep/allusr.txt
+	*	1711068444	0
+	"	1	0
+	^	2	5
+	.	3	0
+	+	1	3
+	+	2	0
+	+	2	5
+	+	2	4
+	+	2	5
+	+	3	0
+
+> ~/Firststep/sonde2.sh
+	*	1711068053	0
+	"	1	0
+
+> ~/Firststep/sonde4.sh
+	*	1711068014	0
+	"	15	0
+	^	15	0
+	.	14	4
+	+	1	104
+	+	1	93
+	+	1	9
+	+	1	4
+	+	1	9
+	+	1	3
+	+	1	9
+	+	14	4
+
+> ~/Firststep/execute1.sh
+	*	1711067982	0
+	"	3	20
+	^	3	43
+	.	3	42
+	+	3	42
+
+> ~/Thirdstep/graphbaton.py
+	*	1711066216	0
+	"	54	0
+	^	54	0
+	.	34	30
+	+	55	0
+	+	54	0
+	+	51	36
+	+	48	16
+	+	53	0
+	+	33	29
+	+	34	30
+
+> ~/Thirdstep/displayTerminal.py
+	*	1711064349	0
+	"	29	61
+	^	29	62
+	.	29	61
+	+	37	16
+	+	11	44
+	+	29	61
+
+> ~/Thirdstep/template.html
+	*	1711060931	0
+	"	57	0
+	^	70	0
+	.	69	7
+	+	1	7
+	+	1	15
+	+	69	7
+
+> ~/Secondstep/backup.py
+	*	1711054580	0
+	"	19	0
+	^	20	0
+	.	19	0
+	+	1	58
+	+	1	13
+	+	1	26
+	+	1	13
+	+	1	54
+	+	1	46
+	+	1	26
+	+	1	13
+	+	5	0
+	+	6	0
+	+	19	45
+	+	5	0
+	+	7	41
+	+	4	29
+	+	2	10
+	+	19	0
+
+> ~/Secondstep/objet_json.json
+	*	1711023769	0
+	"	1	0
+
+> ~/Firststep/ram_usage.txt
+	*	1711007136	0
+	"	1	4
+
+> ~/Firststep/cpu_usage.txt
+	*	1711006836	0
+	"	1	3
+
+> ~/Firststep/sonde5.sh
+	*	1711005884	0
+	"	8	0
+	^	8	0
+	.	6	30
+	+	1	11
+	+	8	0
+	+	7	37
+	+	8	0
+	+	7	31
+	+	7	0
+	+	1	0
+	+	7	0
+	+	6	30
+
+> ~/Firststep/trial2.sh
+	*	1711004664	0
+	"	14	16
+	^	14	17
+	.	14	16
+	+	14	16
+
+> ~/Firststep/trial2.py
+	*	1711004371	0
+	"	14	16
+	^	14	17
+	.	14	17
+	+	14	17
+
+> ~/Firststep/trial.py
+	*	1711003278	0
+	"	12	0
+	^	12	0
+	.	11	54
+	+	11	54
+
+> ~/Firststep/memoire.txt
+	*	1711002876	0
+	"	1	0
+
+> ~/Firststep/allUsers.txt
+	*	1710997974	0
+	"	2	13
+
+> ~/Firststep/allusers.txt
+	*	1710996731	0
+	"	1	0
+
+> ~/Firststep/sonde3.sh
+	*	1710980993	0
+	"	18	0
+	^	18	0
+	.	17	0
+	+	17	0
+
+> /usr/share/phpmyadmin/config.sample.inc.php
+	*	1709845034	0
+	"	16	0
+
+> /var/log/php/php7.4-error.log
+	*	1709844885	0
+	"	1	0
+
+> /var/log/apache2/error.log
+	*	1709844841	0
+	"	17	0
+
+> /etc/apache2/apache2.conf
+	*	1709842104	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	3
+	+	1	0
+
+> ~/Firststep/Step1.sh
+	*	1709823615	0
+	"	8	0
+	^	8	0
+	.	7	17
+	+	7	17
+
+> ~/Firststep/tracesh.txt
+	*	1709823231	0
+	"	1	0
+
+> ~/Firststep/tracesh.sh
+	*	1709823178	0
+	"	1	0
+
+> ~/Firststep/tracepy.txt
+	*	1709823072	0
+	"	1	0
+
+> ~/Firststep/tracepy.text
+	*	1709823026	0
+	"	1	0
+
+> ~/Firststep/sonde1.py
+	*	1709822999	0
+	"	26	0
+	^	26	0
+	.	23	32
+	+	1	34
+	+	1	13
+	+	1	34
+	+	1	13
+	+	1	34
+	+	1	0
+	+	1	29
+	+	1	35
+	+	1	24
+	+	1	0
+	+	1	13
+	+	1	34
+	+	1	13
+	+	25	34
+	+	22	24
+	+	23	32
+
+> ~/Firststep/trace.py.text
+	*	1709822322	0
+	"	1	0
+
+> ~/Firststep/trace.txt
+	*	1709822213	0
+	"	1	6
+
+> ~/Firststep/trace.csv
+	*	1709820716	0
+	"	1	0

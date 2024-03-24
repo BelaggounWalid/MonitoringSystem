@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .notification {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .cert-info {
+            background-color: #5cb85c;
+            color: white;
+        }
+        .table-container {
+            margin-top: 20px;
+            animation: fadeIn 1s ease-in-out;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .table-container table, .graph-container img {
+            width: 100%;
+        }
+        .graph-container {
+            margin-top: 20px;
+            animation: zoomIn 1s ease-in-out;
+            width: 100%;
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .readme-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .readme-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="notification is-primary">
+        <h1 class="title is-1">System Information</h1>
+    </div>
+    <div class="notification is-info cert-info">
+        <h3 class="title is-3">CERT Alert Information</h3>
+        {% if cert_data %}
+            <p><strong>Date:</strong> {{ cert_data[0] }}</p>
+            <p><strong>Reference:</strong> {{ cert_data[1] }}</p>
+            <p><strong>Title:</strong> {{ cert_data[2] }}</p>
+            <p><strong>Status:</strong> {{ cert_data[3] }}</p>
+            <p><strong>CERT URL:</strong> <a href="https://www.cert.ssi.gouv.fr/alerte/{{ cert_data[1] }}/" target="_blank">{{ cert_data[1] }}</a></p>
+        {% else %}
+            <p>No CERT alert information available.</p>
+        {% endif %}
+    </div>
+
+    <div class="table-container">
+        <table class="table is-bordered is-hoverable">
+            <thead>
+                <tr>
+                    <th>Utilisateur</th>
+                    <th>CPU (%)</th>
+                    <th>Mémoire (Mo)</th>
+                    <th>Ram (Ko)</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for element in elements %}
+                <tr>
+                    <td>{{ element[0] }}</td>
+                    <td>{{ element[1] }}</td>
+                    <td>{{ element[2] }}</td>
+                    <td>{{ element[3] }}</td>
+                    <td>{{ element[4] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="graph-container">
+        <img src="static/line_chart.svg" alt="Graph" class="graph-img">
+    </div>
+
+    <div class="button-container">
+        <a href="http://127.0.0.1:5001/update_seuil " class="readme-button">Conf Page</a>
+    </div>
+</div>
+
+</body>
+</html>
+
